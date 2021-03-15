@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Nmana: 5
   damage: 10
-  TimeUse: 3
-  Icono: {fileID: 0}
+  TimeUse: 0.2
+  TiempoRecarga: 0
+  ImagenRecarga: {fileID: 0}
+  SonidoDisparo: {fileID: 8300000, guid: a245ee5d75348c84a89ffb7992f1dc82, type: 3}

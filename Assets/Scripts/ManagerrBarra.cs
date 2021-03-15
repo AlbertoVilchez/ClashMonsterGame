@@ -14,8 +14,8 @@ public class ManagerrBarra : MonoBehaviour
     public float ContadorMana;
     private void Awake()
     {
-        ContadorMana = 0.1f;
-        BarraMana.fillAmount = 0;
+        ContadorMana = 0.6f;
+        BarraMana.fillAmount = 0.5f;
     }
     // Start is called before the first frame update
     void Start()
@@ -35,7 +35,7 @@ public class ManagerrBarra : MonoBehaviour
     }
     void AumentoMana()
     {
-        if (NumeroActualMana < 11)
+        if (NumeroActualMana <= 10)
         {
             BarraMana.fillAmount += Time.deltaTime * VelocityMana; //Aumento de la barra de Mana
             TextoNumeroMana.text = NumeroActualMana.ToString();

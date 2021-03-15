@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c408a45267c0b0147956039aded5a023, type: 3}
-  m_Name: SkillFire
+  m_Name: MultiAerea
   m_EditorClassIdentifier: 
-  Nmana: 3
-  damage: 5
-  TimeUse: 1
-  Icono: {fileID: 21300000, guid: f5a9593619cae42d3a04061c5e684d47, type: 3}
+  Nmana: 1
+  damage: 2
+  TimeUse: 0.9
+  TiempoRecarga: 1
+  ImagenRecarga: {fileID: 0}
+  SonidoDisparo: {fileID: 8300000, guid: 06ada5590eba8d6489b36c6f3c54ff78, type: 3}

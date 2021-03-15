@@ -3,14 +3,19 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class ButtonSkill : MonoBehaviour
+public class StatsPJ : MonoBehaviour
 {
-    public ObjSkill ThisSkill;
-    public TextMeshProUGUI TextoMana;
+
+    public int Vida;
+    public int Armadura;
+    public int Daño;
+
+    public TextMeshProUGUI TextoVida;
+
     // Start is called before the first frame update
     void Start()
     {
-        TextoMana.text = ThisSkill.Nmana.ToString(); 
+        TextoVida.text = Vida + "/" + Vida; 
     }
 
     // Update is called once per frame
@@ -20,6 +25,8 @@ public class ButtonSkill : MonoBehaviour
     }
 
 
+    void UiVida()
+    {
 
-
+    }
 }
